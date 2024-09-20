@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FEROCITY</title>
+  <link rel="icon" href="./fy2.png">
+  <link rel="stylesheet" href="./app.css">
+</head>
+<body onload="showLoader()">  
+   <section class="section_site">
+    <div class="cricle_shadow postion_left"></div>
+    <div class="cricle_shadow postion_right"></div>
+    <div class="loader-container" id="loader">
+      <div class="loader"><p class="welcome">loading...</p></div>
+      </div>
+      <script>
+        function showLoader() {
+    var loader = document.getElementById('loader');
+    loader.style.display = 'flex';
+    setTimeout(function(){
+      loader.style.opacity = '0';
+      setTimeout(function(){
+        loader.style.display = 'none';
+      }, 200);
+    }, 1500); 
+  }
+      </script>
+    <div class="conetnt">
+      <h1>FEROCITY</h1>
+      <p>Choese Colored Matrix</p>
+      <div>
+          <a href="./pages-1.html">
+            <button class="red"></button>
+          </a>
+          <a href="./pages-2.html">
+            <button class="green"></button>
+          </a>
+          <a href="./pages-3.html">
+            <button class="yellow"></button>
+          </a>
+          <a href="./pages-4.html">
+            <button class="magenta"></button>
+          </a>
+          <a href="./pages-5.html">
+            <button class="blue"></button>
+          </a>
+      </div>
+      <a class="help" href="./help_fulscreen.html" target="_blank">help!</a>
+    </div>
+  </section>
+</body>
+</html>

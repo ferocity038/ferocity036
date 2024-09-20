@@ -1,0 +1,12 @@
+html{background: #000;height: 100%;overflow: hidden;}
+body{margin: 0;padding: 0;height: 100%;font-family:monospace;}
+canvas{display:block;} 
+span{font-family: monospace;font-size: 1.5em;}
+span:after{content:"Hacked";opacity: 0;animation: cursor 0.5s infinite;}
+.loader-container {display: none;position: fixed;top: 0;left: 0;width: 100%;height: 100%;background:#0000007c;justify-content: center;align-items: center;opacity: 1;transition: opacity 0.2s ease-out;}  
+.loader {animation: spin 2s linear infinite;}
+p{font-size: 50px;font-family:"hacked"; text-align: center;}
+@keyframes spin {
+0% { transform: rotate(0deg); }
+100% { transform: rotate(0deg); }
+}
