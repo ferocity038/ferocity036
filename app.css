@@ -83,7 +83,7 @@ div{text-align: center;justify-content: center;align-items: center;margin-right:
 .yellow:hover{border: 3px solid #d9ff00;box-shadow: 3px 3px 100px #d9ff00;}
 .green:hover,.blue:hover,.red:hover,.magenta:hover,.yellow:hover{background: transparent;animation: rot 1s ease-out;position: relative;top: -8px;}
 a:hover{animation: ad 1s ease-in-out;}
-.loader-container {display: none;position: fixed;top: 0;left: 0;width: 100%;height: 100%;background:#000000e1;justify-content: center;align-items: center;opacity: 1;transition: opacity 0.2s ease-out;}  
+.loader-container {display: none;position: fixed;width: 100%;height: 100%;background:#000000e1;justify-content: center;align-items: center;opacity: 1;transition: opacity 0.2s ease-out;}  
 .loader {animation: spin 1s linear infinite;}
 .welcome{font-size: xxx-large;color: #fff ;animation: load-p 2s ease-in-out;font-family: monospace;}
 @keyframes load-p {0%{opacity: 0;} 50%{opacity: 10;} 100%{opacity: 20;}}
@@ -127,7 +127,7 @@ a:hover{animation: ad 1s ease-in-out;}
       left:-100px
     }
     .welcome{
-        position: relative;   
-        top:-1000px
+        position:relative;
+        margin-right: 50px;
     }
 }
