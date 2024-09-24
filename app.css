@@ -128,6 +128,6 @@ a:hover{animation: ad 1s ease-in-out;}
     }
     .welcome{
         position: relative;   
-        top:100px
+        top:-1000px
     }
 }
