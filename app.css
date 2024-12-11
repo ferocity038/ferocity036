@@ -8,6 +8,7 @@ body{
     background: #151515;
     overflow-x: hidden;
 }
+button,a{-webkit-tap-highlight-color:transparent;outline: none;}
 .cricle_shadow{
     height: 15rem;
     width: 15rem;
